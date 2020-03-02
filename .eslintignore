@@ -1,0 +1,18 @@
+# .gitignore rules
+
+.DS_Store
+.idea
+.vscode
+
+node_modules
+ssl
+
+config/
+!config/.git*
+!config/*.template
+!config/index.js
+!config/database_migration.js
+
+# additional rules
+
+client

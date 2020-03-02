@@ -1,0 +1,26 @@
+# Declare text files to normalize line endings
+*.txt text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.svg text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.php text eol=lf
+.htaccess text eol=lf
+.docker* text eol=lf
+.eslint* text eol=lf
+.git* text eol=lf
+
+# Declare binary files to prevent changing line endings
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.psd binary
+*.mp4 binary
+*.ogv binary
