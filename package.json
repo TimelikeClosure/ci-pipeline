@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "dev": "node ./node_modules/nodemon/bin/nodemon ./bin/www",
+    "start": "./bin/www",
     "tdd": "node node_modules/mocha/bin/mocha --watch --reporter=min test/unit",
     "test": "node node_modules/mocha/bin/mocha"
   },
