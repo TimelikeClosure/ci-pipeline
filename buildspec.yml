@@ -13,6 +13,5 @@ phases:
   post_build:
     commands:
       - npm ci --production
-artifact:
+artifacts:
   files: "**/*"
-  name: BuildArtifact
